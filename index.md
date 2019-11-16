@@ -5,4 +5,8 @@ On this page, we will update you with the lecture slides and tasks as well as so
 
 ### Slides
 
-[1. Introduction](https://github.com/pibebtol/java-lessons/blob/master/lessons/1Introduction.pdf)
+#### [1. Introduction](https://pibebtol.github.io/java-lessons/lessons/01Introduction.pdf)
+
+[Temperatur](https://pibebtol.github.io/java-lessons/exercises/01Temperatur.md)
+
+#### [2. Object Oriented Programming](https://pibebtol.github.io/java-lessons/lessons/02ObjectOrientedProgramming.pdf)
