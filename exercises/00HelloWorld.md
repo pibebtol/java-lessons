@@ -1,0 +1,33 @@
+## Hello World and Setup
+
+### General Ressources
+
+[Install Java on Windows](https://pibebtol.github.io/java-lessons/exercises/ressources/00windows.html)
+
+[Command Line Usage Guide](https://pibebtol.github.io/java-lessons/exercises/ressources/00command.html)
+
+[Intellij Usage Guide](https://pibebtol.github.io/java-lessons/exercises/ressources/00intellij.html)
+
+[Eclipse Usage Guide](https://pibebtol.github.io/java-lessons/exercises/ressources/00eclipse.html)
+
+### Hello World
+
+* Create a new file `HelloWorld.java`.
+* A new class has to be created:
+```
+public class HelloWorld {
+    // this is the inner body of the class
+}
+```
+* Within that class, create a main-function:
+```
+public static void main(String[] args) {
+	System.out.println("Hello World!");	
+}
+```
+* Execute the class (see usage guides):
+  * When the class HelloWorld is executed, the main function will be run.
+  * Within the main function, the command `System.out.println` is executed.
+  * That prints the string "Hello World!" to the console.
+
+[HelloWorld.java](https://pibebtol.github.io/java-lessons/exercises/solutions/HelloWorld.java)
