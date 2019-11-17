@@ -1,6 +1,6 @@
 ## Hello World and Setup
 
-### General Ressources
+### Setup and Usage Guides
 
 [Install Java on Windows](https://pibebtol.github.io/java-lessons/exercises/ressources/00windows.html)
 
