@@ -16,3 +16,4 @@ On this page, we will update you with the lecture slides and tasks as well as so
 
 * [3. Inheritance]()
   * [Exercise 5 - Library](https://pibebtol.github.io/java-lessons/exercises/05Library2)
+  * [Exercise 6 - Multiplication Table](https://pibebtol.github.io/java-lessons/exercises/06MultiplicationTable)
