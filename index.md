@@ -14,5 +14,5 @@ On this page, we will update you with the lecture slides and tasks as well as so
   * [Exercise 3 - Fibonacci](https://pibebtol.github.io/java-lessons/exercises/03Fibonacci)
   * [Exercise 4 - Reference](https://pibebtol.github.io/java-lessons/exercises/04Reference)
 
-* [3. Inheritance](https://pibebtol.github.io/java-lessons/lessons/03Inheritance.pdf)
+* [3. Inheritance]()
   * [Exercise 5 - Library](https://pibebtol.github.io/java-lessons/exercises/05Library2)
