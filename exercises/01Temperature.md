@@ -3,8 +3,8 @@
 Convert 20°C, 40°C and 120°C into Grad Fahrenheit and print the results to the console.
 
 ### Hints
-- Conversion: [Wikipedia - Grad Fahrenheit](http://de.wikipedia.org/wiki/Grad_Fahrenheit)
-- Control value: 30°C = 86°F
+* Conversion: [Wikipedia - Fahrenheit](https://en.wikipedia.org/wiki/Fahrenheit)
+* Control value: 30°C = 86°F
 
 ### Solution
 Similar to the [HelloWorld example](https://pibebtol.github.io/java-lessons/exercises/00HelloWorld), create a new file, named `Temperature.java` and write the calculations into the *System.out.println()* within the *main* function.
