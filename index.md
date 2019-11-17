@@ -3,12 +3,16 @@
 On this page, we will update you with the lecture slides and tasks as well as some additional ressources and solutions.
 
 
-### Slides
+### Content
 
-#### [1. Introduction](https://pibebtol.github.io/java-lessons/lessons/01Introduction.pdf)
+* [1. Introduction](https://pibebtol.github.io/java-lessons/lessons/01Introduction.pdf)
+  * [Setup - HelloWorld](https://pibebtol.github.io/java-lessons/exercises/00HelloWorld)
+  * [Exercise 1 - Temperature](https://pibebtol.github.io/java-lessons/exercises/01Temperature.html)
 
-[Setup and HelloWorld](https://pibebtol.github.io/java-lessons/exercises/00HelloWorld)
+* [2. Object Oriented Programming](https://pibebtol.github.io/java-lessons/lessons/02ObjectOrientedProgramming.pdf)
+  * [Exercise 2 - Library](https://pibebtol.github.io/java-lessons/exercises/02Library.html)
+  * [Exercise 3 - Fibonacci](https://pibebtol.github.io/java-lessons/exercises/03Fibonacci.html)
 
-[Exercise 0 - Temperatur](https://pibebtol.github.io/java-lessons/exercises/01Temperatur.html)
-
-#### [2. Object Oriented Programming](https://pibebtol.github.io/java-lessons/lessons/02ObjectOrientedProgramming.pdf)
+* [3. Inheritance](https://pibebtol.github.io/java-lessons/lessons/03Inheritance.pdf)
+  * [Exercise 4 - Reference](https://pibebtol.github.io/java-lessons/exercises/04Reference.html)
+  * [Exercise 5 - Library](https://pibebtol.github.io/java-lessons/exercises/05Library2.html)
