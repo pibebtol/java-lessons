@@ -93,3 +93,4 @@ Now we only need to create a library, add some books to the library and test the
 		library.addBookToLibrary(new Book("Harry Potter 2", 1234567890110L));
 	}
 ```
+Example solution: [Library](https://github.com/pibebtol/java-lessons/tree/master/exercises/solutions/02Library)
