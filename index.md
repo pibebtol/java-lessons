@@ -12,7 +12,7 @@ On this page, we will update you with the lecture slides and tasks as well as so
 * [2. Object Oriented Programming](https://pibebtol.github.io/java-lessons/lessons/02ObjectOrientedProgramming.pdf)
   * [Exercise 2 - Library](https://pibebtol.github.io/java-lessons/exercises/02Library)
   * [Exercise 3 - Fibonacci](https://pibebtol.github.io/java-lessons/exercises/03Fibonacci)
+  * [Exercise 4 - Reference](https://pibebtol.github.io/java-lessons/exercises/04Reference)
 
 * [3. Inheritance](https://pibebtol.github.io/java-lessons/lessons/03Inheritance.pdf)
-  * [Exercise 4 - Reference](https://pibebtol.github.io/java-lessons/exercises/04Reference)
   * [Exercise 5 - Library](https://pibebtol.github.io/java-lessons/exercises/05Library2)
