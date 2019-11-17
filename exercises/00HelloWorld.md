@@ -32,4 +32,4 @@ public static void main(String[] args) {
   * Within the *main* function, the command `System.out.println` is executed.
   * That prints the string "Hello World!" to the console.
 
-Example class: [HelloWorld.java](https://github.com/pibebtol/java-lessons/exercises/solutions/HelloWorld.java)
+Example solution: [HelloWorld](https://github.com/pibebtol/java-lessons/tree/master/exercises/solutions/00HelloWorld)
