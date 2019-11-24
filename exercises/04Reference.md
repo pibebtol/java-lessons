@@ -21,3 +21,14 @@ public class Reference {
 1. Write the class `Number` that fits the code above.
 2. What output do you expect the program to give you?
 3. Execute the program and check against your expectations - what do conclude?
+
+### Solution
+The class `Number` only has to store a number:
+```
+public class Number {
+	int number = 0;
+	Number(int number) {
+		this.number = number;
+	}
+}
+```
