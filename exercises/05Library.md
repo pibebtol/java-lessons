@@ -6,7 +6,7 @@ The library lends different media, books and dvds. Every media has a title, ISBN
 
 The library can hold multiple copies of the same book or dvd.
 
-The library has 10 shelves with at most 100 media items.
+The library has 1 shelf with at most 20 media items.
 
 ### Tasks
 1. Create the class media with its attributes.
