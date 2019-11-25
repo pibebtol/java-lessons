@@ -1,7 +1,7 @@
 ## Multiplication table
 
 ### Description
-A [multiplication table](https://en.wikipedia.org/wiki/Multiplication_table) displays the multiplication of the base-ten numbers (numbers from 1 to 10), like this:
+A [multiplication table](https://en.wikipedia.org/wiki/Multiplication_table) displays the multiplication of the base-ten numbers (numbers from 1 to 10), like this: (You can disregard the styling …)
 
 | ×    | 1    | 2    | 3    | 4    | 5    | 6    | 7    | 8    | 9    | 10   |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
