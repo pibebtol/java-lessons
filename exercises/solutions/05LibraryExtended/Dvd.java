@@ -1,5 +1,7 @@
 public class Dvd extends Media {
 
+    // You can also make these "protected", but it is better practice to make your attributes private
+    // and provide getters and setters (see below the constructor)
     private int duration;
     private String mainActors;
 

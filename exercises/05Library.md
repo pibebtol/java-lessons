@@ -18,3 +18,6 @@ The library has 1 shelf with at most 20 media items.
 ### Hints
 
 * Check out the slides on [Inheritance](https://pibebtol.github.io/java-lessons/lessons/03Inheritance.pdf)!
+
+### [Solution](https://github.com/pibebtol/java-lessons/tree/master/exercises/solutions/05LibraryExtended)
+
