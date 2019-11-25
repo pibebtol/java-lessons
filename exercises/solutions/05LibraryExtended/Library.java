@@ -9,10 +9,12 @@ public class Library {
 
         for (Media media : shelf) {
             if (media == null) continue;
+
             if (media instanceof Book) {
                 Book thisBook = (Book) media;
                 System.out.println("This is the book " + thisBook.getTitle() + " from " + thisBook.getAuthor());
             }
+
             if (media instanceof Dvd) {
                 Dvd thisDvd = (Dvd) media;
                 System.out.println("This is the DVD " + thisDvd.getTitle() + " with play time " + thisDvd.getDuration());

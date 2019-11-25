@@ -3,6 +3,11 @@ public class Book extends Media {
     private String author;
     private int pages;
 
+    public Book(String title, long isbn, String publisher, String author, int pages) {
+        super(title, isbn, publisher);
+        this.author = author;
+        this.pages = pages;
+    }
 
     public void setAuthor(String author) {
         this.author = author;
@@ -18,12 +23,6 @@ public class Book extends Media {
 
     public int getPages() {
         return pages;
-    }
-
-    public Book(String title, long isbn, String publisher, String author, int pages) {
-        super(title, isbn, publisher);
-        this.author = author;
-        this.pages = pages;
     }
 }
 
