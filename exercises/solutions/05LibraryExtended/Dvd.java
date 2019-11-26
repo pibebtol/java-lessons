@@ -1,7 +1,5 @@
 public class Dvd extends Media {
 
-    // You can also make these "protected", but it is better practice to make your attributes private
-    // and provide getters and setters (see below the constructor)
     private int duration;
     private String mainActors;
 
@@ -11,19 +9,15 @@ public class Dvd extends Media {
         this.mainActors = mainActors;
     }
 
+    // This overrides the toString() method of the Media class, and uses super() to call the Media toString() method
+    @Override
+    public String toString() {
+        return super.toString() + ". This is also a DVD! " +
+                "Duration: " + duration +
+                ", Main Actors: " + mainActors;
+    }
+
     public int getDuration() {
         return duration;
-    }
-
-    public void setDuration(int duration) {
-        this.duration = duration;
-    }
-
-    public String getMainActors() {
-        return mainActors;
-    }
-
-    public void setMainActors(String mainActors) {
-        this.mainActors = mainActors;
     }
 }

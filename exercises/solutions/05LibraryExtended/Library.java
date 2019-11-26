@@ -33,5 +33,16 @@ public class Library {
                 System.out.println("This is the DVD " + thisDvd.getTitle() + " with play time " + thisDvd.getDuration());
             }
         }
+
+        // Alternatively:
+        for (Media media : shelf) { // For each media in the shelf do:
+
+            // If there is nothing in the shelf, go to the next iteration of the loop
+            // The key word "continue" aborts the current loop and begins the next one
+            if (media == null) continue;
+
+            // As the toString() method is also overridden by our classes, we can just call this:
+            System.out.println(media);
+        }
     }
 }

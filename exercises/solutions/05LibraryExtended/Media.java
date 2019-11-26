@@ -1,10 +1,8 @@
 public class Media {
 
-    // You can also make these "protected", but it is better practice to make your attributes private
-    // and provide getters and setters (see below the constructor)
-    private String title;
-    private long isbn;
-    private String publisher;
+    protected String title;
+    protected long isbn;
+    protected String publisher;
 
     public Media(String title, long isbn, String publisher) {
         this.title = title;
@@ -12,27 +10,16 @@ public class Media {
         this.publisher = publisher;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public void setIsbn(long isbn) {
-        this.isbn = isbn;
-    }
-
-    public void setPublisher(String publisher) {
-        this.publisher = publisher;
+    // This overrides the toString() method, which is implicitly available in every class
+    @Override
+    public String toString() {
+        return "This is a Media item. Title: " + title  +
+                ", Isbn: " + isbn +
+                ", Publisher: " + publisher;
     }
 
     public String getTitle() {
         return title;
     }
 
-    public long getIsbn() {
-        return isbn;
-    }
-
-    public String getPublisher() {
-        return publisher;
-    }
 }

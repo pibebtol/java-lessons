@@ -1,7 +1,5 @@
 public class Book extends Media {
 
-    // You can also make these "protected", but it is better practice to make your attributes private
-    // and provide getters and setters (see below the constructor)
     private String author;
     private int pages;
 
@@ -11,19 +9,15 @@ public class Book extends Media {
         this.pages = pages;
     }
 
-    public void setAuthor(String author) {
-        this.author = author;
-    }
-
-    public void setPages(int pages) {
-        this.pages = pages;
+    // This overrides the toString() method of the Media class, and uses super() to call the Media toString() method
+    @Override
+    public String toString() {
+        return super.toString() + ". This is also a Book! " +
+                "Author: " + author +
+                ", Pages: " + pages;
     }
 
     public String getAuthor() {
         return author;
-    }
-
-    public int getPages() {
-        return pages;
     }
 }
