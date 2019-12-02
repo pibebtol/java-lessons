@@ -18,4 +18,3 @@ Electric cars have a capacity of their battery and as a speciality they do not h
 
 ### Hints
 * the amount of wheels shouldn't be changeable from outside of the class
-* it should not be possible to create objects of the class Vehicle
