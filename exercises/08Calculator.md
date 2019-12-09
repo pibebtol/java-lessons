@@ -11,5 +11,5 @@
 2. Use a loop for the input to calculate as much as you want.
 
 ### Hints
-* Hints for user input: [http://alvinalexander.com/java/edu/pj/pj010005](blogpost on user input)
-* For ease you can assume that the user only inputs correct values.
+* Hints for user input: http://alvinalexander.com/java/edu/pj/pj010005
+* For simplicity you can assume that the user only inputs correct values.
