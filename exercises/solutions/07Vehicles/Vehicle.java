@@ -14,6 +14,12 @@ public abstract class Vehicle {
 		this.brand = brand;
 	}
 
+	// This function would be accessible from outside of the class. (Not only by the subclasses Car, Motorcycle... but also by Garage)
+	// Thus this solution is only partly correct.
+	protected void setWheels(int wheels) {
+		this.wheels = wheels;
+	}
+
 	// Overrides the toString method (which every class inherently has).
 	@Override
 	public String toString() {

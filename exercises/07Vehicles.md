@@ -20,3 +20,10 @@ Electric cars have a capacity of their battery and as a speciality they do not h
 * the amount of wheels shouldn't be changeable from outside of the class
 
 ### Solution
+You can find the solution [here](https://github.com/pibebtol/java-lessons/tree/master/exercises/solutions/07Vehicles).
+
+Since the amount of wheels should not be changeable from outside of the class, we need to set it private.
+However we don't want to create a variable `private int wheels` for every vehicle (car/motorcycle...) so we do that in the **superclass** `Vehicle`.
+
+That means that only the `Vehicle` class can access the variable so we either need a function `setWheels()` in `Vehicle` that is public/protected and control there, who sets the variable *wheels*.
+Alternatively (and this would probably be the better way) we can set the *wheels* in the constructor of `Vehicle` and call the constructor when creating a *car* or *motorcycle*.
