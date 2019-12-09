@@ -1,4 +1,5 @@
-public class Vehicle {
+// abstract class -> it's not able to create an object of this class
+public abstract class Vehicle {
 
 	// Every vehicle has wheels, a tax value and a brand.
 	// Therefore we store it here
