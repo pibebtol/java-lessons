@@ -17,4 +17,10 @@ On this page, we will update you with the lecture slides and tasks as well as so
 * [3. Inheritance](https://pibebtol.github.io/java-lessons/lessons/03Inheritance.pdf)
   * [Exercise 5 - Library](https://pibebtol.github.io/java-lessons/exercises/05Library)
   * [Exercise 6 - Multiplication Table](https://pibebtol.github.io/java-lessons/exercises/06MultiplicationTable)
+
+* [4. Abstract](https://pibebtol.github.io/java-lessons/lessons/04Abstract.pdf)
   * [Exercise 7 - Vehicles](https://pibebtol.github.io/java-lessons/exercises/07Vehicles)
+  * [Exercise 8 - Calculator](https://pibebtol.github.io/java-lessons/exercises/08Calculator)
+
+* [5. Interface](https://pibebtol.github.io/java-lessons/lessons/05Interface.pdf)
+  * [Exercise 9 - GeometricShapes](https://pibebtol.github.io/java-lessons/exercises/09GeometricShapes)
