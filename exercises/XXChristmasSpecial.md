@@ -47,3 +47,6 @@ public class GiftFactory {
 	}
 }
 ```
+
+### [Solution](https://github.com/pibebtol/java-lessons/tree/master/exercises/solutions/XXChristmasSpecial)
+
