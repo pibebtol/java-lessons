@@ -24,3 +24,4 @@ On this page, we will update you with the lecture slides and tasks as well as so
 
 * [5. Interface](https://pibebtol.github.io/java-lessons/lessons/05Interface.pdf)
   * [Exercise 9 - GeometricShapes](https://pibebtol.github.io/java-lessons/exercises/09GeometricShapes)
+* [Weihnachtsspecial!](https://pibebtol.github.io/java-lessons/exercises/XXChristmasSpecial.md)
