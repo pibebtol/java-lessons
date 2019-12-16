@@ -17,6 +17,8 @@ Viel Spaß 😉
 3. Implement a class `Earth.java` that creates some childs with different nice-naughty values and give them some presents!
 4. Profit!
 
+### [Solution](https://github.com/pibebtol/java-lessons/tree/master/exercises/solutions/XXChristmasSpecial)
+
 ### Hints
 You can find the file [here](https://github.com/pibebtol/java-lessons/tree/master/exercises/solutions/XXChristmasSpecial) or take this:
 ```java
@@ -48,5 +50,4 @@ public class GiftFactory {
 }
 ```
 
-### [Solution](https://github.com/pibebtol/java-lessons/tree/master/exercises/solutions/XXChristmasSpecial)
 
