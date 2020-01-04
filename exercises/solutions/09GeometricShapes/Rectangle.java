@@ -1,5 +1,5 @@
 
-public class Rectangle implements GeometricShape {
+public class Rectangle extends GeometricShape {
 	private int a;
 	private int b;
 
