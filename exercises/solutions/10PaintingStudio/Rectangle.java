@@ -1,6 +1,6 @@
-import java.awt.Color;
+import java.awt.*;
 
-public class Rectangle extends GeometricShape implements Positionable, DesignProperties {
+public class Rectangle extends GeometricShape implements Drawable {
 	private int a;
 	private int b;
 	private int x;
@@ -38,5 +38,11 @@ public class Rectangle extends GeometricShape implements Positionable, DesignPro
 	@Override
 	public double getArea() {
 		return a*b;
+	}
+
+	@Override
+	public void draw(Graphics graphics) {
+		graphics.setColor(color);
+		graphics.fillRect(a, b, x, y);
 	}
 }
