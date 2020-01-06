@@ -11,7 +11,7 @@ Therefore we want to give it some new properties like border, color, position an
 ### Tasks
 1. Create a class `Line` with 4 integers: `startX`, `startY`, `endX` and `endY`.
 2. Create the interface class `Drawable`.
-   - This class defines the function `draw(Color color)`, which is imported via `import java.awt.Color;` (on the very top of your file).
+   - This class defines the function `draw(Graphics g)`, which is imported via `import java.awt.Color;` (on the very top of your file).
 2. The `Circle`, `Line` and `Rectangle` class should implement the interface `Drawable`.
 3. Implement all the functions for Square, Line and Rectangle.
 4. Create the file `PaintingStudio.java` and insert the content below.
