@@ -25,4 +25,9 @@ On this page, we will update you with the lecture slides and tasks as well as so
 * [5. Interface](https://pibebtol.github.io/java-lessons/lessons/05Interface.pdf)
   * [Exercise 9 - GeometricShapes](https://pibebtol.github.io/java-lessons/exercises/09GeometricShapes)
   * [Exercise 10 - Painting Studio](https://pibebtol.github.io/java-lessons/exercises/10PaintingStudio)
+  * [Exercise 11 - Library](https://pibebtol.github.io/java-lessons/exercises/11Library)
+  
+* [6. Exceptions](https://pibebtol.github.io/java-lessons/lessons/06Exceptions.pdf)  
+  * [Exercise 12 - FibonacciArray](https://pibebtol.github.io/java-lessons/exercises/12FibonacciArray)
+
 * [Weihnachtsspecial!](https://pibebtol.github.io/java-lessons/exercises/XXChristmasSpecial)
