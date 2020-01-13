@@ -4,7 +4,7 @@ Die Menge `FibonacciArray` kann genau solche Zahlen enthalten die auch in der *F
 
 ### Aufgaben
 
-1. Erstelle eine Klasse `FibonacciArray ` die das Interface `Set` implementiert.
+1. Erstelle eine Klasse `FibonacciArray `.
 2. Erstelle eine neue Klasse `NoFibonacciException`.
 3. Implementiere `void add(Integer i)` so, dass nur Zahlen der Fibonacci-Folge hinzugefügt werden können und bei Bedarf eine `NoFibonacciException` geworfen wird.
 4. Teste deine Implemtierung mit der unten gegebenen Testklasse.

@@ -7,8 +7,8 @@ public class Test {
 				fiboMenge.add(i);
 				System.out.println(i);
 			} catch (NoFibonacciException e) {
-				System.out.println("no fibonacci");
-			} 
+				e.printStackTrace();
+			}
 		}
 	} 
 }
