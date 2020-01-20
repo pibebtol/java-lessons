@@ -31,4 +31,5 @@ On this page, we will update you with the lecture slides and tasks as well as so
   * [Exercise 12 - FibonacciArray](https://pibebtol.github.io/java-lessons/exercises/12FibonacciArray)
 
 * [7. Collections](https://pibebtol.github.io/java-lessons/lessons/07Collections.pdf)  
+  * [Exercise 13 - Kartenspiel](https://pibebtol.github.io/java-lessons/exercises/13Kartenspiel)
 * [Weihnachtsspecial!](https://pibebtol.github.io/java-lessons/exercises/XXChristmasSpecial)

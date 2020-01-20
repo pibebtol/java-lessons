@@ -25,6 +25,7 @@ public class Test {
 				fiboMenge.add(i);
 				System.out.println(i);
 			} catch (NoFibonacciException e) {
+				System.out.println("Thats a fibonacci number!");
 			} 
 		}
 	} 
