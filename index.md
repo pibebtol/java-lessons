@@ -30,4 +30,5 @@ On this page, we will update you with the lecture slides and tasks as well as so
 * [6. Exceptions](https://pibebtol.github.io/java-lessons/lessons/06Exceptions.pdf)  
   * [Exercise 12 - FibonacciArray](https://pibebtol.github.io/java-lessons/exercises/12FibonacciArray)
 
+* [7. Collections](https://pibebtol.github.io/java-lessons/lessons/07Collections.pdf)  
 * [Weihnachtsspecial!](https://pibebtol.github.io/java-lessons/exercises/XXChristmasSpecial)
