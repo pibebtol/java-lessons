@@ -13,3 +13,5 @@
 ### Hints
 * Hints for user input: http://alvinalexander.com/java/edu/pj/pj010005
 * For simplicity you can assume that the user only inputs correct values.
+
+### [Solution](https://github.com/pibebtol/java-lessons/blob/master/exercises/solutions/08Calculator/Calc.java)
