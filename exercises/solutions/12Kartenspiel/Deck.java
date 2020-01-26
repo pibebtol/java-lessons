@@ -24,7 +24,7 @@ class Deck {
     public Set<Card> getCards(int amount) {
         Set<Card> cards = new HashSet<>();
         for (int i = 0; i < amount; i++) {
-            cards.add(drawPile.remove(i));
+            cards.add(drawPile.remove(0));
         }
         return cards;
     }
