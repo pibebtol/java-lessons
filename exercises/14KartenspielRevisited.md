@@ -1,8 +1,8 @@
 # Kartenspiel Revisited
 
-*Diese Aufgabe ist die Folgeaufgabe zu der [Kartenspiel](https://pibebtol.github.io/java-lessons/exercises/13Kartenspiel) Aufgabe von letzter Session.*
+*Diese Aufgabe ist die Folgeaufgabe zu der [Kartenspielaufgabe](https://pibebtol.github.io/java-lessons/exercises/13Kartenspiel) von letzter Session.*
 
-*Ihr könnt entweder eure eigene Lösung weiterverwenden, oder von [hier](https://github.com/pibebtol/java-lessons/tree/master/exercises/solutions/12Kartenspiel) unsere Lösung übernehmen.*
+*Ihr könnt entweder eure eigene Lösung weiterverwenden, oder euch an [unserer Lösung](https://github.com/pibebtol/java-lessons/tree/master/exercises/solutions/12Kartenspiel) orientieren.*
 
 ### Beschreibung
 Wir wollen nun das Spiel **Uno** bauen. Die Spielregeln findet ihr [hier](https://www.uno-kartenspiel.de/spielregeln/).
@@ -24,14 +24,15 @@ Sonderkarten können den Spielfluss verändern.
 
 (Spaß beiseite):
 1. Implementiere den Ablagestapel (siehe `Deck.java` -> `discardPile`).
-1. Baue eine Oberfläche, damit ein Spieler eine Karte ablegen kann (siehe [Tipp 1](#tipp-1))
-1. Entsprechend der Reihenfolge ist dann der Nächste Spieler dran, eine Karte zu legen.
-1. Das Spiel geht so lange, bis einer keine Karten mehr hat. Den Ruf "Uno!" bei der letzten Karte ignorieren wir erstmal.
-1. Neu mischen des *Na*ch*zi*ehstapels [[1]](#homage-an-marc-uwe-kling) aus den Karten des Ablagestapels.
+1. Baue eine Oberfläche, damit ein Spieler eine Karte ablegen kann (siehe [Tipp 1](#tipp-1)).
+    - Natürlich solltest du beachten, dass man nur **passende** Karten ablegen darf (siehe Spielregeln oben).
+3. Entsprechend der Reihenfolge ist dann der Nächste Spieler dran, eine Karte zu legen.
+4. Das Spiel geht so lange, bis einer keine Karten mehr hat. Den Ruf "Uno!" bei der letzten Karte ignorieren wir erstmal.
+5. Neu mischen des *Na*ch*zi*ehstapels [[1]](#homage-an-mark-uwe-kling) aus den Karten des Ablagestapels.
 
 ### Zusatz
 - Sorge dafür, dass Spieler entweder von Menschenhand oder von einem Bot bedient werden.
-- Baue eine Extrafunktion für die Benutzeroberfläche, um "Uno!" zu rufen. Wenn man diesen falsch einsetzt (oder bei der letzten Karte vergisst), muss man eine Strafkarte ziehen.
+- Baue eine Extrafunktion für die Benutzeroberfläche, um "Uno!" zu rufen. Wenn man diesen falsch verwendet (oder bei der letzten Karte vergisst) muss man eine Strafkarte ziehen.
 - Implementiere Uno-typische Sonderkarten mit Extraregeln (siehe [Tipp 2](#tipp-2))
 
 ### Tipp 1
@@ -54,4 +55,4 @@ Zum Beispiel:
 * Wünscher ohne Farbe
 * +4 und Wünscher ohne Farbe
 
-###### [*Homage an Marc-Uwe Kling*](http://www.halt-mal-kurz.de/)
+###### [*Homage an Marc-Uwe Kling*](http://www.halt-mal-kurz.de/).
