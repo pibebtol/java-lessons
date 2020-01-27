@@ -21,4 +21,3 @@ Jeder Spieler erhält zu Beginn des Spiels 7 Karten, die vom Deck runtergenommen
 2. Implementiere eine `giveCards` - Methode die allen Spielern abwechselnd die oberste Karte gibt
 3. Sorge dafür, dass das Spiel von 1 - 8 Spielern gespielt werden kann.
   * Das Spiel braucht entsprechend auch eine Liste von Spielern mit der immer gleichen Reihenfolge.
-  * 
