@@ -1,6 +1,5 @@
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Scanner;
 
 class Game {
     public static void main(String[] args) {
@@ -16,29 +15,6 @@ class Game {
             System.out.println(player);
         }
         System.out.println(deck);
-
-        System.out.println("-----------------------------");
-        for (Player player : players) {
-            System.out.print(player + " | ");
-        }
-        System.out.println();
-        
-
-        while (true) {
-            // create a scanner so we can read the command-line input
-            Scanner scanner = new Scanner(System.in);
-            System.out.print("Enter your name: ");
-            String username = scanner.next();
-
-            // prompt for their age
-            System.out.print("Enter your age: ");
-
-            // get the age as an int
-            int age = scanner.nextInt();
-
-            System.out.println(String.format("%s, your age is %d", username, age));
-
-        }
     }
 
     public static void giveCards(List<Player> players, Deck deck, int amount) {
