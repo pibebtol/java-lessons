@@ -32,4 +32,5 @@ On this page, we will update you with the lecture slides and tasks as well as so
 
 * [7. Collections](https://pibebtol.github.io/java-lessons/lessons/07Collections.pdf)  
   * [Exercise 13 - Kartenspiel](https://pibebtol.github.io/java-lessons/exercises/13Kartenspiel)
+  * [Exercise 14 - Kartenspiel Revisited](https://pibebtol.github.io/java-lessons/exercises/14KartenspielRevisited)
 * [Weihnachtsspecial!](https://pibebtol.github.io/java-lessons/exercises/XXChristmasSpecial)
