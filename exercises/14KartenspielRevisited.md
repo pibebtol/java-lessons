@@ -39,6 +39,7 @@ Sonderkarten können den Spielfluss verändern.
 * Für Nutzereingaben nochmal [hier](http://alvinalexander.com/java/edu/pj/pj010005) nachlesen.
 * Erstellt eine Bedienoberfläche für die Kommandozeile:
 (Ihr könnt euch an folgendem Beispiel orientieren)
+
 ```
 Spieler 1: 3 Karten | Spieler 2: 5 Karten 
 Oberste Karte des Ablagestapels: Grün 5

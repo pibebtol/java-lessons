@@ -29,6 +29,6 @@ class Player {
 
     @Override
     public String toString() {
-        return name + " " + points + " " + hand.toString();
+        return name + " (" + points + "): " + hand.size();
     }
 }
