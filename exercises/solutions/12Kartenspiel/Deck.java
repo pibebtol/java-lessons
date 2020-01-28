@@ -7,13 +7,22 @@ import java.util.Set;
 class Deck {
 
     private List<Card> drawPile = new LinkedList<>();
+
+    public List<Card> getDiscardPile() {
+        return discardPile;
+    }
+
+    public void setDiscardPile(List<Card> discardPile) {
+        this.discardPile = discardPile;
+    }
+
     private List<Card> discardPile = new LinkedList<>();
     Deck() {
         List<String> colours = new LinkedList<>();
-        colours.add("green");
-        colours.add("red");
-        colours.add("blue");
-        colours.add("yellow");
+        colours.add("Grün");
+        colours.add("Rot");
+        colours.add("Blau");
+        colours.add("Gelb");
         for (String color : colours) {
             for (int i = 1; i <= 20; i++) {
                 drawPile.add(new Card(color, i));

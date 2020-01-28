@@ -1,9 +1,19 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 import java.util.HashSet;
 
 class Player {
 
-    private Set<Card> hand = new HashSet<>();
+    public List<Card> getHand() {
+        return hand;
+    }
+
+    public void setHand(List<Card> hand) {
+        this.hand = hand;
+    }
+
+    private List<Card> hand = new ArrayList<>();
     private String name;
     private int points;
 
