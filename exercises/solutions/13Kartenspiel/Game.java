@@ -26,7 +26,40 @@ class Game {
         giveCards(players, deck, 2);
         deck.getDiscardPile().addAll(deck.getCards(1));
 
-        turnPlayer(players.get(0));
+        int currentPlayerPosition = 0;
+        Player currentPlayer;
+
+        // Eine Schleife, um einen Zug zu repräsentieren
+        // Ein Schleifendurchgang entspricht: Der aktuelle Spieler spielt eine Karte von der Hand,
+        // oder zieht eine vom Nachziehstapel.
+        // Dann ist der nächste Spieler dran.
+        while (true) {
+
+            // Falls die Position des momentanen Spielers größer als die Spieleranzahl ist,
+            // setze sie wieder auf 0 (um mit dem ersten Spieler wieder anzufangen)
+            if (currentPlayerPosition >= players.size()) {
+                currentPlayerPosition = 0;
+            }
+
+            currentPlayer = players.get(currentPlayerPosition);
+            
+            turnPlayer(currentPlayer);
+            
+            // Falls der momentane Spieler keine Handkarten mehr hat, hat er gewonnen
+            // "break" bringt einen aus der aktuellen Schleife heraus
+            if (currentPlayer.getHand().size() == 0) {
+                System.out.println(currentPlayer.getName() + " hat gewonnen!");
+                break;
+            }
+
+            //TODO: Prüfe, ob der Nachziehstapel leer ist. Falls ja, muss der Ablagestapel in den Nachziehstapel gemischt werden.
+
+            // Die Position des aktuellen Spielers wird um eins hochgesetzt, damit der nächste dran ist.
+            currentPlayerPosition++;
+        }
+
+        // Dies wird aufgerufen, wenn die Schleife durch ein "break" beendet wurde
+        System.out.println("Das Spiel ist vorbei!");
     }
 
     private void turnPlayer(Player currentPlayer) {

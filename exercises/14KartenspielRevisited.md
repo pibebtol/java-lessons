@@ -1,8 +1,13 @@
 # Kartenspiel Revisited
 
-*Diese Aufgabe ist die Folgeaufgabe zu der [Kartenspielaufgabe](https://pibebtol.github.io/java-lessons/exercises/13Kartenspiel) von letzter Session.*
+*Diese Aufgabe ist die Folgeaufgabe zu der [Kartenspielaufgabe](https://pibebtol.github.io/java-lessons/exercises/13Kartenspiel) der letzten Sessions.*
+*Ihr habt mehrere Möglichkeiten, wie ihr heute weiter macht:*
+* Ihr könnt eure eigene Lösung weiterverwenden und an dieser weiterarbeiten und die Aufgaben unten einarbeiten
+* Ihr könnt die Lösung [Level 1](https://github.com/pibebtol/java-lessons/tree/master/exercises/solutions/12Kartenspiel) übernehmen, hier ist ein Zug durch den Spieler bereits hinzugefügt. Dementsprechend müsste ab Aufgabe 3 weiter gearbeitet werden.
+* Ihr könnt die Lösung [Level 2](https://github.com/pibebtol/java-lessons/tree/master/exercises/solutions/13Kartenspiel) übernehmen, hier ist es so, dass der Spieler für alle 4 Spieler die Karten legen muss. Weiter würde es gehen mit mischen des Nachziehstapels und Zusatz 1 -> hinzufügen von Bots.
+* Ihr könnt die Lösung [Level 3](https://github.com/pibebtol/java-lessons/tree/master/exercises/solutions/14Kartenspiel) übernehmen, hier ist ein einfacher Bot implementiert, der die Spieler 2 bis 4 spielt. Weiter würde es gehen mit mischen des Nachziehstapels und Zusatz 2 und 3 -> Uno rufen, Regeln für Sonderkarten...
 
-*Ihr könnt entweder eure eigene Lösung weiterverwenden, oder euch an [unserer Lösung](https://github.com/pibebtol/java-lessons/tree/master/exercises/solutions/12Kartenspiel) orientieren.*
+Viel Spaß!
 
 ### Beschreibung
 Wir wollen nun das Spiel **Uno** bauen. Die Spielregeln findet ihr [hier](https://www.uno-kartenspiel.de/spielregeln/).

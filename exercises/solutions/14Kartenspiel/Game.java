@@ -26,7 +26,44 @@ class Game {
         giveCards(players, deck, 2);
         deck.getDiscardPile().addAll(deck.getCards(1));
 
-        turnPlayer(players.get(0));
+        int currentPlayerPosition = 0;
+        Player currentPlayer;
+
+        // Eine Schleife, um einen Zug zu repräsentieren
+        // Ein Schleifendurchgang entspricht: Der aktuelle Spieler spielt eine Karte von der Hand,
+        // oder zieht eine vom Nachziehstapel.
+        // Dann ist der nächste Spieler dran.
+        while (true) {
+
+            // Falls die Position des momentanen Spielers größer als die Spieleranzahl ist,
+            // setze sie wieder auf 0 (um mit dem ersten Spieler wieder anzufangen)
+            if (currentPlayerPosition >= players.size()) {
+                currentPlayerPosition = 0;
+            }
+
+            currentPlayer = players.get(currentPlayerPosition);
+            
+            if (currentPlayerPosition > 0) {
+                turnBot(currentPlayer);
+            } else {
+                turnPlayer(currentPlayer);
+            }
+            
+            // Falls der momentane Spieler keine Handkarten mehr hat, hat er gewonnen
+            // "break" bringt einen aus der aktuellen Schleife heraus
+            if (currentPlayer.getHand().size() == 0) {
+                System.out.println(currentPlayer.getName() + " hat gewonnen!");
+                break;
+            }
+
+            //TODO: Prüfe, ob der Nachziehstapel leer ist. Falls ja, muss der Ablagestapel in den Nachziehstapel gemischt werden.
+
+            // Die Position des aktuellen Spielers wird um eins hochgesetzt, damit der nächste dran ist.
+            currentPlayerPosition++;
+        }
+
+        // Dies wird aufgerufen, wenn die Schleife durch ein "break" beendet wurde
+        System.out.println("Das Spiel ist vorbei!");
     }
 
     private void turnPlayer(Player currentPlayer) {
@@ -88,6 +125,24 @@ class Game {
         System.out.println();
         System.out.println("-----------------------");
         System.out.println();
+}
+
+    private void turnBot(Player currentPlayer) {
+        List<Card> discardPile = deck.getDiscardPile();
+        Card discardPileLastCard = discardPile.get(discardPile.size() - 1);
+        List<Card> currentPlayerHand = currentPlayer.getHand();
+        for (Card card : currentPlayerHand) {
+            if (discardPileLastCard.getColor().equals(card.getColor()) || discardPileLastCard.getNumber() == card.getNumber()) {
+                discardPile.add(card);
+                currentPlayerHand.remove(card);
+                System.out.println(currentPlayer.getName() + " hat die Karte " + card + " gelegt.");
+                break;
+            } else if (currentPlayerHand.indexOf(card) == currentPlayerHand.size() - 1) {
+                currentPlayer.addCards(deck.getCards(1));
+                System.out.println(currentPlayer.getName() + " hat gezogen.");
+                break;
+            }
+        }
     }
 
     private void giveCards(List<Player> players, Deck deck, int amount) {
