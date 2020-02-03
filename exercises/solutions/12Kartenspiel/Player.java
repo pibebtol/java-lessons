@@ -1,7 +1,6 @@
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
-import java.util.Set;
-import java.util.HashSet;
 
 class Player {
 
@@ -21,7 +20,7 @@ class Player {
         this.name = name;
     }
 
-    public void addCards(Set<Card> cards) {
+    public void addCards(Collection<Card> cards) {
         hand.addAll(cards);
     }
 

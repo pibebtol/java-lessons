@@ -4,14 +4,23 @@ import java.util.Scanner;
 import java.util.Set;
 
 class Game {
+    private List<Player> players = new LinkedList<>();
+    private Deck deck;
     public static void main(String[] args) {
-        List<Player> players = new LinkedList<>();
-        players.add(new Player("Anton"));
-        players.add(new Player("Marco"));
-        players.add(new Player("Jette"));
-        players.add(new Player("Miriam"));
-        Deck deck = new Deck();
+        // erzeuge die Spieler und das Deck
+        // das unabhängig zu machen, hat den Vorteil, dass man einfach
+        // ein anderes Deck Karten hinzufügen könnte (neuer Konstruktor für Deck.java)
+        // dann mit den Karten spielt, anstatt der Uno Karten
+        Game game = new Game();
+        game.getPlayers().add(new Player("Anton"));
+        game.getPlayers().add(new Player("Marco"));
+        game.getPlayers().add(new Player("Jette"));
+        game.getPlayers().add(new Player("Miriam"));
+        game.setDeck(new Deck());
+        game.startGame();
+    }
 
+    public void startGame() {
         deck.shuffleDeck();
         giveCards(players, deck, 2);
         deck.getDiscardPile().addAll(deck.getCards(1));
@@ -107,9 +116,10 @@ class Game {
 
         // Dies wird aufgerufen, wenn die Schleife durch ein "break" beendet wurde
         System.out.println("Das Spiel ist vorbei!");
+
     }
 
-    public static void giveCards(List<Player> players, Deck deck, int amount) {
+    public void giveCards(List<Player> players, Deck deck, int amount) {
         for (int i = 0; i < amount; i++) {
             for (Player player : players) {
                 player.addCards(deck.getCards(1));
@@ -117,7 +127,7 @@ class Game {
         }
     }
 
-    private static void drawCards(Player player, Deck deck, int amount) {
+    private void drawCards(Player player, Deck deck, int amount) {
         // Hole Karten vom Nachziehstapel
         Set<Card> newCards = deck.getCards(amount);
 
@@ -126,5 +136,12 @@ class Game {
             System.out.println("Du hast eine " + card + " gezogen.");
         }
         player.addCards(newCards);
+    }
+
+    public List<Player> getPlayers() {
+        return players;
+    }
+    public void setDeck(Deck deck) {
+        this.deck = deck;
     }
 }

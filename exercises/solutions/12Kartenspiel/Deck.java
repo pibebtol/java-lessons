@@ -7,16 +7,8 @@ import java.util.Set;
 class Deck {
 
     private List<Card> drawPile = new LinkedList<>();
-
-    public List<Card> getDiscardPile() {
-        return discardPile;
-    }
-
-    public void setDiscardPile(List<Card> discardPile) {
-        this.discardPile = discardPile;
-    }
-
     private List<Card> discardPile = new LinkedList<>();
+
     Deck() {
         List<String> colours = new LinkedList<>();
         colours.add("Grün");
@@ -47,6 +39,14 @@ class Deck {
             drawPile.set(sourceIndex, drawPile.get(goalIndex));
             drawPile.set(goalIndex, card);
         }
+    }
+
+    public List<Card> getDiscardPile() {
+        return discardPile;
+    }
+
+    public void setDiscardPile(List<Card> discardPile) {
+        this.discardPile = discardPile;
     }
 
     @Override
